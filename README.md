@@ -10,7 +10,7 @@
 
 # Install symfony
 + Run: docker exec -it -u dev sf4_php bash
-+ composer create-project symfony/skeleton my-temp-folder
++ cd into sf4 directory then run composer create-project symfony/skeleton my-temp-folder
 + cp -Rf /home/wwwroot/sf4/my-temp-folder/. .
 + rm -Rf /home/wwwroot/sf4/my-temp-folder
 + Open localhost in your browser!
